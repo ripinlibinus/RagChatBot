@@ -1,0 +1,44 @@
+# Virtual env
+.venv
+venv
+ENV
+env
+
+# Cache Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Git & IDE
+.git
+.gitignore
+.gitattributes
+.idea
+.vscode
+*.iml
+
+# Logs & temp
+*.log
+logs/
+tmp/
+.cache/
+
+# Notebook & hasil eksperimen
+*.ipynb
+notebooks/
+reports/
+
+# Data besar / artefak RAG yang tidak perlu di-image
+data/
+datasets/
+chroma/
+vectorstore/
+eval/
+checkpoints/
+models/
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db

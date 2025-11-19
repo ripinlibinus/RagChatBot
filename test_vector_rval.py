@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from vector_rval import build_chain, build_chain_test
-from helper import test_question
+from test_question import test_question
 from rich import print
 from save_chat_to_excel import append_record_to_excel
 
