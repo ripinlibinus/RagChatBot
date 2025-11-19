@@ -1,0 +1,40 @@
+# --- secrets & env ---
+.env
+*.env
+
+# --- virtualenv ---
+.venv/
+venv/
+
+# --- vector db / indexes ---
+chroma_store/
+
+!data/.gitkeep
+
+# --- python caches ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# --- build / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- logs / sqlite ---
+*.log
+*.sqlite3
+
+# --- tooling / editors ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- caches umum ---
+.cache/
+.huggingface/
+hf_home/
