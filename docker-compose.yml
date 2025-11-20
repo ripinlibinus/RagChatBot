@@ -1,0 +1,10 @@
+services:
+  ragbot:
+    image: ragbot:latest    # atau build: . kalau mau build dari Dockerfile
+    container_name: ragbot
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
