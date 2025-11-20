@@ -28,8 +28,8 @@ from helper import jakarta_time_greeting
 
 load_dotenv()
 
-PERSIST_DIR = "chroma/metaproperty"
-COLLECTION_NAME = "metaproperty"
+PERSIST_DIR = "chroma/realestate"
+COLLECTION_NAME = "realestate"
 DATA_API_URL = os.getenv("DATA_API_URL")
 API_TOKEN = os.getenv("API_TOKEN")
 STORE_HISTORY_URL = DATA_API_URL + "/chat_history"

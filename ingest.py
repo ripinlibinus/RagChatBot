@@ -14,8 +14,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_openai import OpenAIEmbeddings
 
 DEFAULT_EMBED_MODEL_HF = "intfloat/multilingual-e5-base"  # bagus untuk Indo
-PERSIST_DIR_DEFAULT = "chroma/metaproperty"
-COLLECTION_DEFAULT = "metaproperty"
+PERSIST_DIR_DEFAULT = "chroma/realestate"
+COLLECTION_DEFAULT = "realestate"
 
 def parse_args():
     p = argparse.ArgumentParser(description="Ingest listings.json + page_content/*.txt ke Chroma")

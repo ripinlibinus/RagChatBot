@@ -36,8 +36,8 @@ API_TOKEN = os.getenv("API_TOKEN")
 FETCH_PROPERTY_URL = DATA_API_URL + "/query_listing"
 STORE_HISTORY_URL = DATA_API_URL + "/chat_history"
 
-PERSIST_DIR = "chroma/metaproperty"
-COLLECTION_NAME = "metaproperty"
+PERSIST_DIR = "chroma/realestate"
+COLLECTION_NAME = "realestate"
 
 
 report_param = {}
