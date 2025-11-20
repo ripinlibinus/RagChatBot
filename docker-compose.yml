@@ -1,10 +1,12 @@
 services:
   ragbot:
-    image: ragbot:latest    # atau build: . kalau mau build dari Dockerfile
+    build: .                # <--- ini yang bikin image dibuild dari Dockerfile
+    image: ragbot:latest    # nama/tag image (optional tapi bagus)
     container_name: ragbot
     env_file:
       - .env
     ports:
       - "8000:8000"
     volumes:
-      - ./data:/app/data
+      - ./data:/app/data    # data tetap di-mount dari host
+    restart: unless-stopped
