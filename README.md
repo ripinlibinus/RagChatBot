@@ -113,3 +113,8 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 ## Create own API (by Laravel - Optional)
 In .env.example we provide the api for testing. But if you want to run from you own real estate data, you can also use our template created using Laravel Framework.<br>
 You can visit this github url and kindly follow the instruction https://github.com/ripinlibinus/RagMysqlApi
+
+## Whatsapp Implementation (Additional)
+You can use our Whatsapp Forwarder to testing chat for another experience of the API
+Visit this github url and kindly follow the instruction https://github.com/ripinlibinus/RagWhatsappForwarder
+Note : This whatsapp forwarder is for educational testing only. we are not responsible for spam or commercial use that cause your number banned.
