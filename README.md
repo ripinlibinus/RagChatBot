@@ -110,4 +110,6 @@ python ingest.py --use-openai
 uvicorn app:app --host 0.0.0.0 --port 8000
 ```
 
-End.
+## Create own API (by Laravel - Optional)
+In .env.example we provide the api for testing. But if you want to run from you own real estate data, you can also use our template created using Laravel Framework.<br>
+You can visit this github url and kindly follow the instruction https://github.com/ripinlibinus/RagMysqlApi
