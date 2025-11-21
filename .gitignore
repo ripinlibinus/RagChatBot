@@ -7,7 +7,7 @@
 venv/
 
 # --- vector db / indexes ---
-chroma_store/
+chroma/
 
 !data/.gitkeep
 
